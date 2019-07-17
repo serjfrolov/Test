@@ -1,0 +1,11 @@
+installRelease:
+ stage: install
+ only:
+    - master
+    - test
+    - JBOT-2449
+ variables:
+  GIT_STRATEGY: none
+
+ script:
+  - echo "LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL"
